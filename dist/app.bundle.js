@@ -1,0 +1,2 @@
+(()=>{var e=document.querySelector("#menu-bar"),c=document.querySelector(".navbar");e.oclick=function(){e.classList.toggle("fa-times"),c.classList.toggle("active")},window.onscroll=function(){e.classList.remove("fa-times"),c.classList.remove("active"),window.scroll>60?document.querySelector("#scroll-top").classList.add("active"):document.querySelector("#scroll-top").classList.remove("active")}})();
+//# sourceMappingURL=app.bundle.js.map
